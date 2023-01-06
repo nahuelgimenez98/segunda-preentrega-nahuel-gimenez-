@@ -1,0 +1,124 @@
+
+/*---COMENTARIO---*/
+
+*{ 
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    background-color: rgb(185, 88, 19);
+    }
+   .productos .div .valhalla {
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+    background-size: cover;
+background-position: center;
+position: absolute;}
+    
+
+    .article {
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+
+    } 
+.imagendecarrousel {
+    min-width: 200px
+    
+}
+
+
+/*---header---*/
+header{
+    background-color: darkolivegreen;
+    background-image: url("../img/barco\ vikingo.jpg");
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-color: #103535;    
+}
+
+header h1{color: rgb(14, 68, 68); 
+    font-size: 50px ;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center
+;
+position: relative ;
+display: grid;
+grid-template-areas: inherit;
+grid-template-rows: auto;
+grid-template-columns: auto;}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 250px;
+width: 250px;
+text-align: center;
+position: relative;
+font-family: fantasy;}
+ div h2 {
+    animation: alternate-reverse;
+
+}
+
+.navbar {
+    font-size: 20px;
+    background-color: transparent;
+  }
+  
+  .navbar .nav-link {
+    margin-left: 20px;
+  }
+  
+  .navbar .nav-link:hover {
+    background-color: black;
+    border-radius: 50px;
+  }
+  
+  .nav-link {
+    background-color: transparent;
+   
+  }
+/*----main----*/
+
+main{
+    background: linear-gradient(
+    tomato  0% gold 100%
+); }
+ main h2 {
+    color: firebrick;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+}
+h4 {display: flexbox;
+    flex-wrap: wrap;
+    font-style: oblique;
+    font-family: cursive;
+}
+.subtitulo { color: darkgray;
+font-size: xx-large;
+font-style: italic;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.principal {
+    font-size:xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.valhalla{
+    height: 700px;
+    width: 1500px;
+}
+
+
+/*----footer---*/
+img{
+    height: 50px;
+    width: 50px;
+    
+
+}
